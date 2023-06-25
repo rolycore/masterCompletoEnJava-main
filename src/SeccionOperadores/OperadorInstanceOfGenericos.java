@@ -1,6 +1,13 @@
 package SeccionOperadores;
 
+/**
+ *
+ */
 public class OperadorInstanceOfGenericos {
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         Object texto = "Creando un objeto";
         Number num = 7; // creándolo con autoboxing con new esta deprecado

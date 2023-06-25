@@ -7,8 +7,8 @@ public class OperadoresLogicosLoginArraysTernario {
         Scanner scanner = new Scanner(System.in);
 
         boolean isAutheticated = false;
-        String[] userNames = {"eugenia", "admin"};
-        String[] passwords = {"12345", "12345"};
+        String[] userNames = {"eugenia", "admin","dzamora","rolycore"};
+        String[] passwords = {"12345", "12345","zamora10","08900890"};
 
         System.out.println("Ingrese el usuario : ");
         String userNameInput = scanner.next();
