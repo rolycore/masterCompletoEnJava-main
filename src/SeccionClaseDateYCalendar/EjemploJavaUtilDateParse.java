@@ -2,6 +2,8 @@ package SeccionClaseDateYCalendar;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.Period;
 import java.util.Date;
 import java.util.Scanner;
 
@@ -10,7 +12,7 @@ public class EjemploJavaUtilDateParse {
 
         Scanner sc = new Scanner(System.in);
         SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
-
+        //comparando fechas
         // tiene que coincidir con el patron yyyy-MM-dd
         System.out.println("Ingrese una fecha con formato yyyy-MM-dd: ");
         try {
@@ -43,5 +45,17 @@ public class EjemploJavaUtilDateParse {
             // System.exit(1);
             main(args); // otra opción es volver a invocar al main
         }
+        //comparacion entre otras fechas
+        //En Java, puedes utilizar la clase LocalDate del paquete java.time para obtener la diferencia en años entre dos fechas. Aquí tienes un ejemplo de cómo hacerlo:
+        // Definir las fechas de inicio y fin
+
+        LocalDate fechaInicio = LocalDate.of(1990, 10, 15);
+        LocalDate fechaFin = LocalDate.now(); // Fecha actual
+
+        // Calcular la diferencia en años
+        int añosDiferencia = Period.between(fechaInicio, fechaFin).getYears();
+
+        // Imprimir el resultado
+        System.out.println("La diferencia en años es: " + añosDiferencia);
     }
 }

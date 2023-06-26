@@ -10,7 +10,7 @@ public class EjemploJavaUtilDate {
         // dia mes nro HH:mm:ss
         // Mon Feb 06 14:30:01 ART 2023
 
-        SimpleDateFormat df = new SimpleDateFormat("dd MMMM YYYY");
+        SimpleDateFormat df = new SimpleDateFormat("dd/MMMM/YYYY");
         SimpleDateFormat df2 = new SimpleDateFormat("dd - MM - YYYY");
         SimpleDateFormat df3 = new SimpleDateFormat("dd 'de'  MM, YYYY"); // interpolo String con comilla simple
         // https://docs.oracle.com/javase/8/docs/api/java/text/SimpleDateFormat.html
