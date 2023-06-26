@@ -7,7 +7,7 @@
 ### Teoría
 
 
-En [TEORIA](https://github.com/eugenia1984/masterCompletoEnJava/blob/main/TEORIA.md) está toda la teoría vista.
+En [TEORIA](https://github.com/rolycore/masterCompletoEnJava/blob/main/TEORIA.md) está toda la teoría vista.
 
 ###  Práctica
 
