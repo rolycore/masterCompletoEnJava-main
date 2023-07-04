@@ -16,7 +16,7 @@ public class EjemploStringRendimiento {
         //3ro: actualización
         for(int i = 0; i < 500; i++) {
             // c = c.concat(a).concat(b).concat("\r"); // 2 milisegundos
-            // c += a + b + "\r"; // 19 milisegundos
+             // c += a + b + "\r"; // 19 milisegundos
             sb.append(a).append(b).append("\r"); // 0 milisegundos
             // append retorna el mismo objeto, la misma instancia
             // por eso puedo concatenar
